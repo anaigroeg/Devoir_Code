@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+        <style type="texte/css"></style>
+
+        <title>Facebook</title>
+
+    </head>
+
+
+    <body>
+    <div id="div_générale">
+
+        <div id="boîte_haute">
+            <div id="entête">
+                <div id="logo">
+                facebook
+            </div>
+
+            <div id="formulaire_login">
+                
+<!-- ici je vais placer mon formulaire -->
+                <form action="index.html" method="post">
+<!--je vais insérer un tableau pour pouvoir structurer mon formulaire-->
+                    <table>
+                            <tr>
+                                <td style=" color:#FFFFFF; font-family: Helvetica; font-size: 12px; line-height: 16px;"> Adresse e-mail ou mobile</td> <td style="color:#FFFFFF; font-family: Helvetica; font-size: 12px; line-height: 16px;"> Mot de passe</td>
+                            </tr>
+                            <!-- ça m'a sauvé la vie de trouver l'extension What Font pour Chrome, j'avais tant galéré avant.. --> 
+                            <tr>
+                                 <td><label for="Login" class="leLabelDeMonLogin"></label>
+                                 <input type="text" name="Adresse e-mail ou mobile" style= "width: 155px; height: 18px"></td>
+                                 <td><input type="password" name="Password" style="width: 155px; height: 18px"></td>
+                                 <td><input type="button" value="Connexion" style="color: white; background-color:#3b5998;"></td> 
+                            <tr> 
+                                 <td><br></td>
+                                 <td style="color:#9cb4d8; font-family: Helvetica; font-size: 12px; line-height: 16px;"> Informations de compte oubliées ?</td>
+                            </tr>     
+
+                            </tr>        
+                                 </label>
+                    </table>
+                </form>
+            </div>
+
+<!--maintenant on va insérer l'image-->
+            <div id="boîte_milieu">
+                <p style=" font-family:Helvetica; line-height: 29px; font-size: 20px; font-weight:bold; color:#0e385f";> Connectez-vous au monde, un ami après </br> l’autre.</p>
+                <div id="image">
+                    <img src="imgfb.JPG">
+            </div>
+
+
+                <div id="droite">
+                <table>
+                <tr> <td style= "color:#333333; font-family: Helvetica; font-size: 36px; line-height: 48px;"> <b> Inscription </b> </td> </tr>
+                <tr> <td style= "color:#1d2129; font-family: Helvetica; font-size: 19px; line-height: 25px;"> C'est gratuit (et ça le restera toujours)</td></tr>
+                </table>
+                <br>
+            <div id="formulaire_milieu">
+                <form>
+
+                    <table>
+                        <tr>
+                            <td><input type="text" style="width:172px; height: 18px;" placeholder="Prénom"> <input type="text" style="width:172px;height: 18px;" placeholder="Nom de famille"></td>
+                        </tr>
+
+                        <tr>    
+                            <td><input type="text" style="width:370px;height: 18px;" placeholder="Numéro de mobile ou e-mail"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" style="width:370px;height: 18px;" placeholder="Confirmez numéro de mobile ou e-mail"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="password" style="width:370px;height: 18px;" placeholder="Nouveau mot de passe"></td>
+                        </tr>
+
+                    </table>
+                    <br>
+
+                    <div id="date_naissance">
+                    
+                    <table>  
+                    <tr style="font-family: Helvetica; font-size:18px; line-height: 24px; color:#1d2129"> Date de naissance</tr>
+
+                    <tr>
+                            <td><select><option> Jour </option>
+                                        <option> 1 </option> <option> 2 </option> <option>3</option> <option>4</option> <option>5</option><option>6</option> <option>7</option> <option>8</option> <option>9</option> <option>10</option> <option>11</option> <option>12</option> <option>13</option> <option>14</option> <option>15</option> <option>16</option> <option>17</option> <option>18</option> <option>19</option> <option>20</option> <option>21</option> <option>23</option> <option>24</option> <option>25</option> <option>26</option> <option>27</option> <option>28</option> <option>29</option> <option>30</option> <option>31</option> </select></td>
+
+                                        <td><select><option> Mois </option><option>jan</option><option>fév</option><option>mar</option><option>avr</option><option>mai</option><option>jun</option><option>juil</option><option>sep</option><option>oct</option><option>nov</option><option>déc</option></select></td>
+
+                                        <td><select><option>Année</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option></select></td>
+
+                                        <td> <p style="font-size: 10px;"<a href= "https://fr-fr.facebook.com/about/privacy/"> Pourquoi indiquer ma date de <br> naissance ? </a></td>
+                    </tr>
+                    </table>
+                    </div>                   
+                                        <tr>
+
+                                        <td><input type="radio"> Femme
+                                        <input type="radio"> Homme</td>    
+                                        </tr>
+                    
+                </table>
+
+                </form>
+                <p style="font-size: 11px; font-family: Helvetica; line-height: 15px; color: #777777">  En cliquant sur Inscription vous acceptez nos <a href="https://fr-fr.facebook.com/legal/terms"> Conditions </a> et </br> indiquez que vous avez lu notre <a href="https://fr-fr.facebook.com/about/privacy"> Politique d'utilisation des </br> données</a>, y compris notre <a href="https://fr-fr.facebook.com/policies/cookies/"> Utilisation des cookies</a>.Vous pourrez</br>recevoir des notifications par texto de la part de Facebook et </br>pouvez vous désabonner à tout moment. </p> 
+            </div></br>
+                <button style=" color: #FFFFFF; font-family: Helvetica; font-size: 19px; line-height: 24px; size: 30px; width: 180px; height: 40px; border-radius: round; background-color: #5B8E47"> <b> Inscription</b> </button>
+                <br>
+                <br>
+                <p style="font-size: 13px; font-family: Helvetica; line-height: 17px; color: #666666;> <a href: "https://fr-fr.facebook.com/pages/create/?ref_type=registration_form"> <b><a href="https://fr-fr.facebook.com/pages/create/?ref_type=registration_form"> Créez une page </a> pour une célébrité, un groupe ou une entreprise.</b></p>
+            </div>
+
+     <div id="pied_page">
+        <table>
+            <tr> 
+                <td style="color: #84738D"> Français (France) </a> </td> <td> <a href="https://www.facebook.com/"> English(US) </a></td> <td> <a href="https://es-la.facebook.com/"> Español </a></td> <td> <a href="https://tr-tr.facebook.com/"> Türkçe </a></td> <td>Português(Portugal)</td> <td>العربية</td> <td>Italiano</td> <td>Deutsch</td> <td> हिन्दी </td> <td>中文(简体) </td> <td> 日本語</td> <td> <button style=" font-size: 18px; line-height: 20px; color: #4b4f56; width: 30px; height: 22px;">+</button></td> 
+            </tr>
+        </table>
+        <hr>
+        <table>
+            <tr>
+                <td>Inscription</td>  <td>Connexion</td>  <td>Messenger</td>  <td>Facebook Lite</td> <td>Mobile</td>  <td>Retrouver des amis</td>  <td>Personnes</td> <td>Pages</td> <td>Lieux</td> <td>Jeux</td> <td>Lieux</td>
+            </tr>
+            <tr>
+                <td>Célébrités</td>  <td>Groupes</td>  <td>Moments</td>  <td>Instagram</td>  <td>A propos</td>  <td>Créer une publicité</td>  <td><a href="https://fr-fr.facebook.com/pages/create/?ref_type=registration_form"> Créer une page </a></td>  <td>Développeurs</td>  <td>Emploi</td>  <td>Confidentialité</td>  <td>Cookies</td>
+            </tr>
+            <tr>
+                <td>Choisir sa pub</td>  <td>Conditions d'utilisation</td>  <td>Aide</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <div style="color:#666666; font-size: 11px; line-height: 15px; font-family: Helvetica;"> Facebook © 2017</div>
+
+        </div>    
+    </body>
+
+</html>

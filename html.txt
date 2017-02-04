@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8" />
+
+        <link rel="stylesheet" href="style.css" />
+
+        <title>Premiers tests du CSS</title>
+
+    </head>
+
+
+    <body>
+
+        <div id="boîte_haute">
+            <div id="entête">
+                <div id="logo">
+                facebook
+                </div>
+             <div id="formulaire_login">
+<!-- ici je vais placer mon formulaire -->
+            <form action="index.html" method="post">
+<!--je vais insérer un tableau pour pouvoir structurer mon formulaire-->
+                <table>
+                    <tbody>
+                        <tr>
+                            <td> Adresse e-mail ou mobile</td><td> Mot de passe</td>
+                        </tr>
+                        <tr>
+                            <td><label for="Login" class="leLabelDeMonLogin"></label></td>
+                            <td><input type="text" name="Adresse e-mail ou mobile"></td>
+                            <td><input type="password" name="password"></td>
+                            <td><input type="button" value="Connexion"></td>
+                        </tr>        
+                </label>
+                </tbody>
+                </table>
+            </form>
+            </div>
+
+<!--maintenant on va insérer l'image-->
+            <div>
+            <div id="boîte_milieu">
+                <p style=" font-family:Tahoma; font-size: 18px; font-weight:bold; color:#2B3968";> Connectez-vous au monde, un ami après </br> l’autre.</p>
+                <div id="image">
+                    <img src="imgfb.JPG">
+                </div>
+
+
+                <div id="droite">
+                <p style="font-size:36px; font-weight: bold; color:black"> Inscription</p>
+                <p>C'est gratuit (et ça le restera toujours)</p>
+            <div id="formulaire_milieu">
+                <form>
+
+                    <table>
+                        <tr>
+                            <td><input type="text" placeholder="Prénom"></td> <td><input type="text" placeholder="Nom de famille"></td>
+                        </tr>
+
+                        <tr>    
+                            <td><input type="text" placeholder="Numéro de mobile ou e-mail"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="text" placeholder="Confirmez numéro de mobile ou e-mail"></td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="password" placeholder="Nouveau mot de passe"></td>
+                        </tr>
+
+                        <tr>
+                            <td> Date de naissance</td>
+                        </tr>
+
+                        <tr>
+                            <td><select><option> Jour </option>
+                                        <option> 1 </option> <option> 2 </option> <option>3</option> <option>4</option> <option>5</option><option>6</option> <option>7</option> <option>8</option> <option>9</option> <option>10</option> <option>11</option> <option>12</option> <option>13</option> <option>14</option> <option>15</option> <option>16</option> <option>17</option> <option>18</option> <option>19</option> <option>20</option> <option>21</option> <option>23</option> <option>24</option> <option>25</option> <option>26</option> <option>27</option> <option>28</option> <option>29</option> <option>30</option> <option>31</option> </select></td>
+
+                                        <td><select><option> Mois </option><option>jan</option><option>fév</option><option>mar</option><option>avr</option><option>mai</option><option>jun</option><option>juil</option><option>sep</option><option>oct</option><option>nov</option><option>déc</option></select></td>
+
+                                        <td><select><option>Année</option><option>2016</option><option>2015</option><option>2014</option><option>2013</option><option>2012</option><option>2011</option><option>2010</option><option>2009</option><option>2008</option><option>2007</option><option>2006</option><option>2005</option><option>2004</option><option>2003</option><option>2002</option><option>2001</option><option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option></select></td>
+                                        </tr>
+                                        <tr>
+                                        <td><input type="radio"> Femme
+                                        <input type="radio"> Homme</td>    
+                                        </tr>
+                    
+                </table>
+
+                </form>
+                <p> En cliquant sur Inscription vous acceptez nos Conditions et </br> indiquez que vous avez lu notre Politique d'utilisation des </br> données, y compris notre Utilisation des cookies. </p> 
+            </div></br>
+                <button> Inscription </button>
+                <p> Créez une page pour une célébrité, un groupe ou une entreprise.</p>
+            </div>
+
+            <div id="pied_page">
+            
+    </body>
+
+</html>

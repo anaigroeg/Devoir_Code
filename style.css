@@ -1,0 +1,115 @@
+a {
+  text-decoration: none;
+  color: #365899;
+}
+a:visited {
+  color: #365899;
+}
+
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+  color: #365899;
+}
+
+body{
+	margin:0px;
+	padding:0px;
+	height: 500px;
+	width:1355px;
+	background: linear-gradient(#f7f7f7, #d3d8e8);
+}
+
+#boîte_haute{
+	height: 640;
+	position: relative;
+	display: block;
+}
+
+#entête{
+	width: 100%;
+	height: 80px;
+	background: #3C5A99;
+	box-shadow: 2px 2px 2px 2px;
+	box-shadow: 0px 1px 8px 2px;
+	position: relative;
+}
+
+#logo{
+	font-size: 45px;
+	color: white;
+	font-family: arial;
+	font-weight: bold;
+	line-height: 15px;
+	position:relative;
+	left:200px;
+	top: 40px;
+}
+
+#formulaire_login{
+	float: right;
+	color: white;
+	position:relative;
+	right:200px;
+	top:-10px;
+}
+
+
+#boîte_milieu{
+	float: left;
+	font-size: 20px;
+	font-family: tahoma; 
+	font-style:bold;
+	color: black;
+	position: relative;
+	top: 25px;
+	left: 160px;
+}
+
+#droite{
+	z-index: 7;
+	float: right;
+	position: relative;
+	top: -300px;
+	right:240px;
+}
+
+#formulaire_milieu input{
+	border: 1px solid #BDC7D8;
+	border border-radius: 5px;
+	color: black;
+	padding: 10px;
+	position: relative;
+	z-index: 6;
+
+}
+
+
+#formulaire_milieu select{
+	display: inline;
+	height: 30px;	
+}
+
+#formulaire_milieu {
+	color:#1d2129;
+	font-family: Helvetica; 
+	font-size: 18px;
+	line-height: 18px;
+	font-family: Helvetica;
+	border-spacing: 0px;
+}
+
+#pied_page{
+	position: relative;
+	font-size: 12px;
+	font-family: helvetica;
+	line-height: 16px;
+	color: 	#365899;
+	bottom: 180px;
+	background: #FFFFFF ;
+	width: 100%;
+	height: 100;
+	border-spacing: 3px;
+	float:left;
+	left: -150px;
+	top:-300px;
+}
